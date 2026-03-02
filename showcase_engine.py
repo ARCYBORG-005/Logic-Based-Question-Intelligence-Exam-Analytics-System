@@ -65,7 +65,7 @@ def extract_step_1_refined():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         f.write("\n\n".join(final_list))
     
-    print(f"\n✅ STEP 1 REFINED: Found {len(final_list)} unique questions.")
+    print(f"\n STEP 1 REFINED: Found {len(final_list)} unique questions.")
     print(f"Check if Question 1 and Question 380 are both in {OUTPUT_PATH}.")
 
 if __name__ == "__main__":
